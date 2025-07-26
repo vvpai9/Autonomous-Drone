@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from path import generate_waypoints
 from mission import geofence, x_divisions, y_divisions
 
-modules = ["log.py", "detection.py", "align.py", "cam.py", "path.py", "basic.py", "mission.py"]
+modules = ["log.py", "detection.py", "align.py", "path.py", "basic.py", "mission.py"]
 
 def plot_serpentine_path(grid, geofence):
     """Plot the serpentine path using Matplotlib."""
